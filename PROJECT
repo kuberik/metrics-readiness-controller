@@ -1,0 +1,6 @@
+domain: kuberik.io
+layout:
+- go.kubebuilder.io/v3
+projectName: metrics-readiness-controller
+repo: github.com/kuberik/metrics-readiness-controller
+version: "3"
