@@ -1,0 +1,6 @@
+apiVersion: kuberik.io/v1alpha1
+kind: MetricsReadiness
+metadata:
+  name: metricsreadiness-sample
+spec:
+  # TODO(user): Add fields here

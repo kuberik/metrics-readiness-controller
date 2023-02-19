@@ -3,4 +3,13 @@ layout:
 - go.kubebuilder.io/v3
 projectName: metrics-readiness-controller
 repo: github.com/kuberik/metrics-readiness-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kuberik.io
+  kind: MetricsReadiness
+  path: github.com/kuberik/metrics-readiness-controller/api/v1alpha1
+  version: v1alpha1
 version: "3"
